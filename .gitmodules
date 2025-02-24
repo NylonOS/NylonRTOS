@@ -1,0 +1,6 @@
+[submodule "base/esp-open-rtos"]
+	path = base/esp-open-rtos
+	url = https://github.com/NylonOS/esp-open-rtos.git
+[submodule "base/ameba-rtos-z2"]
+	path = base/ameba-rtos-z2
+	url = https://github.com/Ameba-AIoT/ameba-rtos-z2.git
