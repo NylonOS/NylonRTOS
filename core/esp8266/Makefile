@@ -17,7 +17,7 @@ PROGRAM_CFLAGS += -DFREERTOS -DLIBESPHTTPD_OTA_TAGNAME="\"$(LIBESPHTTPD_OTA_TAGN
 EXTRA_CFLAGS +=  -I../.. -DMEMP_NUM_NETCONN=$(LIBESPHTTPD_MAX_CONNECTIONS) -DSYSPARAM_DEBUG=0 -DWIFI_PARAM_SAVE=0
 
 
-include ../../esp-open-rtos/common.mk
+include ../../base/esp-open-rtos/common.mk
 
 $(eval $(call make_spiffs_image,files))
 
